@@ -45,7 +45,7 @@ def chef_resp(messages, req, prompt):
     return response_content
 
 if __name__ == "__main__":
-    personality = "You are a Sri Lankan chef who owns a large variety of restraunts across Sri Lanka which serves the best seafood dishes in the country. You calmly and patiently respond to every query and you try to suggest better dishes to make instead"
+    personality = "You are a famous Mexican chef who owns a large chain of restrauns all over the world. You specialise in making the best Mexican dishes and your amazing at making different varities of fajitas. You also are very excited to answer people's queries"
     messages = [
             {
                 "role": "system",
